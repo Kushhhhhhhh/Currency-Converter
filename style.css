@@ -4,6 +4,8 @@
   }
   
   body {
+    background-color: #335b32;
+    color: #9dffac;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,26 +13,29 @@
   }
   
   .container {
-    padding: 2rem;
+    background-color: #629460;
+    color: #9dffac;
+    padding: 1.5rem; 
     border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vh;
+    min-height: 40vh; 
+    width: 30vh; 
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
   }
-
-  h2{
+  
+  h2 {
     text-align: center;
     color: #fff;
     font-family: sans-serif;
     font-weight: 500;
   }
-
-  p{
+  
+  p {
     color: #fff;
     font-weight: 500;
   }
   
   form {
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0 0.5rem 0; 
   }
   
   form select,
@@ -39,38 +44,39 @@
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
   }
   
   form input {
     border: 1px solid lightgray;
     font-size: 1rem;
-    height: 3rem;
+    height: 2.5rem; 
     padding-left: 0.5rem;
   }
   
   .dropdown {
     display: flex;
-    justify-content: space-between;
+    gap: 1rem;
+    justify-content: center; 
     align-items: center;
-    margin-top: 2rem;
-    padding: 8px;
+    margin-top: 1rem; 
+    padding: 6px; 
   }
   
   .dropdown i {
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    font-size: 1.25rem; 
+    margin-top: 0.5rem; 
   }
   
   .select-container img {
-    max-width: 2rem;
+    max-width: 1.5rem; 
   }
   
   .select-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
+    width: 5rem; 
     border-radius: 0.5rem;
     border: 1px solid lightgray;
   }
@@ -81,25 +87,15 @@
   }
   
   .msg {
-    margin: 2rem 0 2rem 0;
+    font-size: 1.25rem; 
+    margin: 1.5rem 0 1.5rem 0; 
     color: #fff;
   }
   
   form button {
-    height: 3rem;
+    height: 2.5rem; 
     background-color: #335b32;
     color: #fff;
-    font-size: 1.15rem;
+    font-size: 1rem; 
     cursor: pointer;
   }
-
-button {
-    background-color: #335b32;
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 1rem;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 700;
-}
